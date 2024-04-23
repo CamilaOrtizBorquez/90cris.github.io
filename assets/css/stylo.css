@@ -1,6 +1,26 @@
 html{
     scroll-behavior: smooth;
 }
+
+body{
+    background-color: #e5e5e5 !important;
+}
+
+.nav-link{
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.nav-link:hover{
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+footer{
+    background-color: black;
+}
+
 footer p{
   
       background-color: black;
@@ -12,8 +32,10 @@ h1{
     color: white;
 }
 h2{
-    background-color: #0a58ca;
+    background-color: #081c15;
     text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
 }
 section{
     padding-top: 5%;
